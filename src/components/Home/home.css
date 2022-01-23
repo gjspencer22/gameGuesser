@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    justify-content: center;
+}
+.welcomeBox{
+    /* background-color: rgb(24, 23, 23); */
+    justify-content: space-around;
+    background-color: black;
+    text-align:center;
+    padding:4em;
+    margin: 4em;
+    border-radius: 5px;
+    border: solid green 1px;
+}
+.welcomeHeader {
+   color: green;
+}
+.welcomeText {
+    color:green;
+}
