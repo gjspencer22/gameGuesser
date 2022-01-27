@@ -3,6 +3,7 @@ import './home.css';
 
 
 function Home() {
+    // const begin = begin();
     return (
         <div class = 'home'>
             <div class ='welcomeBox'>
@@ -10,14 +11,12 @@ function Home() {
                  <div>
                     <p class ='welcomeText'>Listen to a sound and guess which video game it is from!</p>
                 </div>
-                <button onclick = 'begin()' class ='beginButton' id = 'beginButton'>Begin Your Trial</button>
+                <button onclick = "begin()" class ='beginButton' id = 'beginButton'>Begin Your Trial</button>
             </div>
         </div>
     );
 }
 
-function begin () {
-    // const clicked = document.getElementById('beginButton')
-    console.log('oy')
-}
+
 export default Home;
+
