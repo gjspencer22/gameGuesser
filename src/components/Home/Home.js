@@ -4,13 +4,13 @@ import './home.css';
 
 function Home() {
     return (
-        <div class = 'home'>
-            <div class ='welcomeBox'>
-                    <h1 class ='welcomeHeader'> Welcome to Game Gueser! </h1>
+        <div className = 'home'>
+            <div className ='welcomeBox'>
+                    <h1 className ='welcomeHeader'> Welcome to Game Gueser! </h1>
                  <div>
-                    <p class ='welcomeText'>Listen to a sound and guess which video game it is from!</p>
+                    <p className ='welcomeText'>Listen to a sound and guess which video game it is from!</p>
                 </div>
-                <button onclick = 'begin()' class ='beginButton' id = 'beginButton'>Begin Your Trial</button>
+                <button className ='beginButton' id = 'beginButton' onClick = {begin()} >Begin Your Trial</button>
             </div>
         </div>
     );
@@ -18,6 +18,8 @@ function Home() {
 
 function begin () {
     // const clicked = document.getElementById('beginButton')
-    console.log('oy')
+    
+    // document.getElementById('beginButton').style.color = 'orange'
+    // onClick.console.log('oy')
 }
 export default Home;
