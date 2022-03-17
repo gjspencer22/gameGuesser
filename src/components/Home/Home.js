@@ -1,14 +1,14 @@
 import React from 'react';
 import './home.css';
+import './index.js';
 
+// const beginButton = document.getElementById('beginButton')
 
-const beginButton = document.getElementById('beginButton')
+// beginButton.addEventListener('click', begin)
 
-beginButton.addEventListener('click', begin)
-
-function begin() {
-    console.log('oychump')
-}
+// function begin() {
+//     console.log('oychump')
+// }
 
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
                     <p className='welcomeText'>Listen to a sound and guess which video game it is from!</p>
                 </div>
                 {/* <button className ='beginButton' id = 'beginButton' onClick = {begin()} >Begin Your Trial</button> */}
-                <button class='beginButton' id='beginButton'>Begin Your Trial</button>
+                <button className='beginButton' id='beginButton'>Begin Your Trial</button>
             </div>
         </div>
   );
